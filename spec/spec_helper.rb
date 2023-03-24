@@ -5,7 +5,7 @@ SimpleCov.start do
   add_group 'Tests', 'spec'
 end
 SimpleCov.minimum_coverage 90
-
+require 'active_support'
 require 'active_support/core_ext/object/json'
 require 'jsonapi/serializer'
 require 'ffaker'
